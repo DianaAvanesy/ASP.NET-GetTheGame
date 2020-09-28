@@ -45,6 +45,7 @@ namespace ASP.NETGetTheGame.Controllers
         public IActionResult AddCategory()
         {
             //display an empty form where user can add new category
+            var someString = "test";
 
             return View();
         }
